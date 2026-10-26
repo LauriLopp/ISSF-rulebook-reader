@@ -18,3 +18,11 @@ build/
 # Editor and OS files
 .vscode/
 .DS_Store
+
+# ISSF source documents and derivatives (not committed until licensing is clear)
+data/raw/
+docs/
+
+# Individual files
+CLAUDE.md
+Prompt.txt
