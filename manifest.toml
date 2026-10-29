@@ -1,0 +1,14 @@
+# Source documents the pipeline knows about. Each entry is one immutable published file.
+# The sha256 pins the exact bytes; a new print gets a new entry instead of editing an old one.
+# Downloaded files go to data/raw/sources/ (gitignored, see CLAUDE.md).
+
+[[source]]
+id = "issf-rulebook-2025-p3"
+document = "issf-rulebook"
+title = "ISSF Rule Book 2026"
+edition = "Edition 2025"
+print_run = "Third Print 10/2026"
+effective = "2026-10-19"
+url = "https://backoffice.issf-sports.org/getfile.aspx?mod=docf&pane=1&inst=455&file=ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026-Effective-19-October-2026.pdf"
+filename = "ISSF-Rule-Book-2026-Edition-2025-Third-Print-10-2026.pdf"
+sha256 = "2a79b10e08375de1f0c45f62c19f615f1e665d169e5db4dee7a0805399a2d078"

@@ -3,10 +3,13 @@
 .env.*
 !.env.example
 
-# Python
+# Python and tooling
 __pycache__/
 *.py[cod]
 .venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
 # Node.js
 node_modules/
@@ -19,10 +22,13 @@ build/
 .vscode/
 .DS_Store
 
-# ISSF source documents and derivatives (not committed until licensing is clear)
+# ISSF source documents and everything derived from them (not committed until licensing is clear)
 data/raw/
-docs/
 
-# Individual files
+# Evaluation questions: kept private so they cannot leak into model training data
+evaluation/
+
+# Local working notes: project docs, agent instructions, personal drafts
+docs/
 CLAUDE.md
 Prompt.txt
